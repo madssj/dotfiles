@@ -60,11 +60,11 @@ if ! shopt -oq posix; then
 fi
 
 # source z.sh if it exists
-if -f ~/z.sh; then
+if test -f ~/z.sh; then
     . ~/z.sh
 fi
 
 # set miniconda to path if it exists
-if -d ~/miniconda; then
+if test -d ~/miniconda; then
     export PATH="~/miniconda/bin:$PATH"
 fi
