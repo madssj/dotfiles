@@ -1,0 +1,5 @@
+[user]
+	name = Mads Sülau Valstorp Jørgensen
+	email = mads@sulau.dk
+[core]
+	excludesfile = ~/.gitignore
